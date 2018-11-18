@@ -1,8 +1,7 @@
-import React from 'react';
 import { createStackNavigator, createAppContainer } from 'react-navigation'
 
-import EventList from './EventList'
-import EventForm from './EventForm'
+import EventList from './components/EventList'
+import EventForm from './components/EventForm'
 
 const app = createStackNavigator({
   list: {
